@@ -215,6 +215,10 @@
     <Compile Include="Migrations\201909182020339_AddBirthDateToCustomer1.Designer.cs">
       <DependentUpon>201909182020339_AddBirthDateToCustomer1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201909182244026_initialModel1.cs" />
+    <Compile Include="Migrations\201909182244026_initialModel1.Designer.cs">
+      <DependentUpon>201909182244026_initialModel1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -324,6 +328,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201909182020339_AddBirthDateToCustomer1.resx">
       <DependentUpon>201909182020339_AddBirthDateToCustomer1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201909182244026_initialModel1.resx">
+      <DependentUpon>201909182244026_initialModel1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
