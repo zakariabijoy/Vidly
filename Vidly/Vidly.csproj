@@ -219,9 +219,30 @@
     <Compile Include="Migrations\201909182244026_initialModel1.Designer.cs">
       <DependentUpon>201909182244026_initialModel1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201909222018476_AddGenre.cs" />
+    <Compile Include="Migrations\201909222018476_AddGenre.Designer.cs">
+      <DependentUpon>201909222018476_AddGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201909222021193_PopulateGenre.cs" />
+    <Compile Include="Migrations\201909222021193_PopulateGenre.Designer.cs">
+      <DependentUpon>201909222021193_PopulateGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201909222036420_ApplyAnnotationsToMovieName.cs" />
+    <Compile Include="Migrations\201909222036420_ApplyAnnotationsToMovieName.Designer.cs">
+      <DependentUpon>201909222036420_ApplyAnnotationsToMovieName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201909222138252_UpdateMovieModel.cs" />
+    <Compile Include="Migrations\201909222138252_UpdateMovieModel.Designer.cs">
+      <DependentUpon>201909222138252_UpdateMovieModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201909222142359_ApplyAnnotationsToMovieName1.cs" />
+    <Compile Include="Migrations\201909222142359_ApplyAnnotationsToMovieName1.Designer.cs">
+      <DependentUpon>201909222142359_ApplyAnnotationsToMovieName1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Movie.cs" />
@@ -279,6 +300,8 @@
     <None Include="Views\Customers\Details.cshtml" />
     <None Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Movies\Random.cshtml" />
+    <None Include="Views\Movies\Details.cshtml" />
+    <None Include="Views\Movies\Index.cshtml" />
     <None Include="Views\Movies\ShowMovies.cshtml" />
     <None Include="Views\Shared\_NavBar.cshtml" />
   </ItemGroup>
@@ -331,6 +354,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201909182244026_initialModel1.resx">
       <DependentUpon>201909182244026_initialModel1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201909222018476_AddGenre.resx">
+      <DependentUpon>201909222018476_AddGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201909222021193_PopulateGenre.resx">
+      <DependentUpon>201909222021193_PopulateGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201909222036420_ApplyAnnotationsToMovieName.resx">
+      <DependentUpon>201909222036420_ApplyAnnotationsToMovieName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201909222138252_UpdateMovieModel.resx">
+      <DependentUpon>201909222138252_UpdateMovieModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201909222142359_ApplyAnnotationsToMovieName1.resx">
+      <DependentUpon>201909222142359_ApplyAnnotationsToMovieName1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
