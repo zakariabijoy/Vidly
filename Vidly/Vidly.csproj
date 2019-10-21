@@ -607,7 +607,6 @@
     <None Include="Views\Movies\Details.cshtml" />
     <None Include="Views\Movies\Index.cshtml" />
     <Content Include="Views\Movies\MovieForm.cshtml" />
-    <None Include="Views\Movies\ShowMovies.cshtml" />
     <None Include="Views\Shared\_NavBar.cshtml" />
   </ItemGroup>
   <ItemGroup>
