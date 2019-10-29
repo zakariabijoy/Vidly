@@ -10,6 +10,7 @@ using Vidly.ViewModels;
 
 namespace Vidly.Controllers
 {
+    
     public class CustomersController : Controller
     {
         private  ApplicationDbContext _context;
@@ -67,6 +68,7 @@ namespace Vidly.Controllers
             return RedirectToAction("Index", "Customers");
         }
         // GET: Customers
+        
         public ActionResult Index()
         {
             var customers = _context.Customers.Include(c=>c.MembershipType).ToList();
