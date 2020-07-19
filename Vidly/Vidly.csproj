@@ -20,6 +20,8 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -259,10 +261,6 @@
     <Compile Include="Migrations\201909152016276_PopulateNameToMembershipType2.cs" />
     <Compile Include="Migrations\201909152016276_PopulateNameToMembershipType2.Designer.cs">
       <DependentUpon>201909152016276_PopulateNameToMembershipType2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201909152202213_newmigration.cs" />
-    <Compile Include="Migrations\201909152202213_newmigration.Designer.cs">
-      <DependentUpon>201909152202213_newmigration.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\201909181957268_AddBirthDateToCustomer.cs" />
     <Compile Include="Migrations\201909181957268_AddBirthDateToCustomer.Designer.cs">
@@ -722,9 +720,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201909152016276_PopulateNameToMembershipType2.resx">
       <DependentUpon>201909152016276_PopulateNameToMembershipType2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201909152202213_newmigration.resx">
-      <DependentUpon>201909152202213_newmigration.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201909181957268_AddBirthDateToCustomer.resx">
       <DependentUpon>201909181957268_AddBirthDateToCustomer.cs</DependentUpon>
